@@ -1,0 +1,57 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Isolation source
+COLOR	#333333
+STRIP_WIDTH	28
+MARGIN	4
+BORDER_WIDTH	1
+BORDER_COLOR	#ffffff
+SHOW_STRIP_LABELS	0
+LEGEND_TITLE	Isolation source
+LEGEND_SHAPES	1	1	1	1	1	1	1	1	1
+LEGEND_COLORS	#E69F00	#56B4E9	#E8E8E8	#999999	#882255	#44AA99	#117733	#DDCC77	#AA4499
+LEGEND_LABELS	blood	environmental	not provided	other clinical	other sterile site	respiratory	stool or rectal swab	urinary tract	wound, skin or soft tissue
+DATA
+A55822	#117733	stool or rectal swab
+A55955	#56B4E9	environmental
+DRR387063	#117733	stool or rectal swab
+DRR387400	#117733	stool or rectal swab
+DRR390463	#117733	stool or rectal swab
+DRR390471	#117733	stool or rectal swab
+DRR390474	#117733	stool or rectal swab
+DRR390915	#AA4499	wound, skin or soft tissue
+DRR391007	#DDCC77	urinary tract
+DRR659019	#999999	other clinical
+ERR10670786	#117733	stool or rectal swab
+SRR12525863	#56B4E9	environmental
+SRR12525865	#E69F00	blood
+SRR12525874	#56B4E9	environmental
+SRR12525876	#56B4E9	environmental
+SRR1810048	#882255	other sterile site
+SRR1817645	#E8E8E8	not provided
+SRR1818075	#E8E8E8	not provided
+SRR19442282	#E69F00	blood
+SRR19561471	#117733	stool or rectal swab
+SRR2051539	#882255	other sterile site
+SRR2051546	#882255	other sterile site
+SRR21018005	#44AA99	respiratory
+SRR23384838	#AA4499	wound, skin or soft tissue
+SRR24635329	#DDCC77	urinary tract
+SRR27176972	#AA4499	wound, skin or soft tissue
+SRR28276777	#44AA99	respiratory
+SRR29748762	#E69F00	blood
+SRR30047501	#DDCC77	urinary tract
+SRR30047502	#882255	other sterile site
+SRR30047503	#DDCC77	urinary tract
+SRR30047504	#E69F00	blood
+SRR30780214	#E69F00	blood
+SRR30908456	#AA4499	wound, skin or soft tissue
+SRR31396212	#E69F00	blood
+SRR33047820	#E8E8E8	not provided
+SRR33047844	#117733	stool or rectal swab
+SRR33931812	#E69F00	blood
+SRR33932123	#E69F00	blood
+SRR34909763	#DDCC77	urinary tract
+SRR35395857	#999999	other clinical
+SRR35795432	#56B4E9	environmental
+SRR5247447	#E69F00	blood

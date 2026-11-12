@@ -1,0 +1,9 @@
+{
+  "gtdbtk_ani_rep.ani_closest": "this.ani_closest",
+  "gtdbtk_ani_rep.ani_summary": "this.ani_summary",
+  "gtdbtk_ani_rep.per_genome_table": "this.per_genome_table",
+  "gtdbtk_ani_rep.species_counts": "this.species_counts",
+  "gtdbtk_ani_rep.run_log": "this.run_log",
+  "gtdbtk_ani_rep.gtdbtk_version": "this.gtdbtk_version",
+  "gtdbtk_ani_rep.gtdb_release": "this.gtdb_release"
+}

@@ -1,0 +1,9 @@
+DRR294062	ANI<95(93.46);gambit_not_E_chengduensis
+DRR389531	ANI<95(88.03);gambit_not_E_chengduensis
+DRR790003	ANI<95(91.43);gambit_not_E_chengduensis
+DRR790069	ANI<95(91.23);gambit_not_E_chengduensis
+DRR790109	ANI<95(91.18);gambit_not_E_chengduensis
+SRR18729812	coverage<30x
+SRR19561460	contigs>300
+SRR19561495	contigs>300
+SRR3290655	contigs>300

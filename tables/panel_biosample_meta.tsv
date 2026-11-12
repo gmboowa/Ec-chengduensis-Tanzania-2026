@@ -1,0 +1,53 @@
+Genome	BioSample	Strain	Country	geo_loc_name	Isolation source	Host	Collection date
+A55822	SAMN56929804	EC_A55822	Tanzania	Tanzania: Mwanza	stool	Homo sapiens	2020-04-10
+A55955	SAMN56929805	EC_A55955	Tanzania	Tanzania: Mwanza	Walking frame		2020-01-16
+DRR294062	SAMD00320891	68_88	Japan	Japan:Shizuoka	soil		
+DRR387063	SAMD00498559	JBBDAAF-19-0140	Japan	Japan:Tokyo	stool	Homo sapiens	2020-08-31
+DRR387400	SAMD00498896	JBBDAFG-19-0030	Japan	Japan:Tokyo	stool	Homo sapiens	2019-05-03
+DRR389531	SAMD00501027	JBDAAAB-19-0084	Japan	Japan:Wakayama	wound	Homo sapiens	2020-01-24
+DRR390463	SAMD00501959	JBEAAAI-19-0025	Japan	Japan:Fukuoka	stool	Homo sapiens	2019-09-02
+DRR390471	SAMD00501967	JBEAAAI-19-0041	Japan	Japan:Fukuoka	stool	Homo sapiens	2019-09-24
+DRR390474	SAMD00501970	JBEAAAI-19-0054	Japan	Japan:Fukuoka	stool	Homo sapiens	2019-10-02
+DRR390915	SAMD00502411	JBEHAAB-19-0213	Japan	Japan:Okinawa	wound	Homo sapiens	2020-06-10
+DRR391007	SAMD00502503	JBEHABI-19-0050	Japan	Japan:Okinawa	urine	Homo sapiens	2019-06-27
+DRR659019	SAMD00890803	ECC_Tokyo32	Japan	Japan:Tokyo	human	Homo sapiens	2021-09-15
+DRR790003	SAMD01696788	BR330	Japan	Japan:Aichi		Homo sapiens	2023
+DRR790069	SAMD01696854	GR053	Japan	Japan:Oita		Homo sapiens	2023
+DRR790109	SAMD01696894	LR008	Japan	Japan:Tokyo		Homo sapiens	2023
+ERR10670786	SAMEA112238870	Swab	Nigeria	Nigeria	Rectal Swab	Homo sapiens	2016
+SRR12525863	SAMN15913968	GENC165	Guadeloupe	Guadeloupe	Wastewater		2018-10
+SRR12525865	SAMN15913966	GENC139	Guadeloupe	Guadeloupe	blood	Homo sapiens	2018-09
+SRR12525874	SAMN15913975	GENC308	Guadeloupe	Guadeloupe	Wastewater		2019-02
+SRR12525876	SAMN15913973	GENC279	Guadeloupe	Guadeloupe	Wastewater		2018-10
+SRR1810048	SAMN03277196	CIDEIMsCOL9	Colombia	Colombia	bodily fluid	Homo sapiens	2010
+SRR1817645	SAMN03283679	44246	USA	USA: NYC			2014
+SRR1818075	SAMN03283668	44242	USA	USA: NYC			2014
+SRR18729812	SAMN27533592	ST-414	USA	USA	blood	Homo sapiens	
+SRR19442282	SAMN28744030	M89665	Australia	Australia:Queensland	blood	Homo sapiens	2018-10-23
+SRR19561460	SAMN28668712	M1232	Australia	Australia:Queensland	Rectal Swab	Homo sapiens	2020-12-15
+SRR19561471	SAMN28668607	M07468	Australia	Australia:Queensland	Rectal Swab	Homo sapiens	2020-09-13
+SRR19561495	SAMN28668547	M06117_1R	Australia	Australia:Queensland	Rectal Swab	Homo sapiens	2020-06-16
+SRR2051539	SAMN03732710	GN02468	USA	USA	bodily fluid	Homo sapiens	2006-08-01
+SRR2051546	SAMN03732717	GN02587	USA	USA	bodily fluid	Homo sapiens	2007-09-01
+SRR21018005	SAMN30220793	COV_426	USA	USA: New York	respiratory	Homo sapiens	
+SRR23384838	SAMN32721518	CPO272	Australia	Australia: Melbourne	Skin and soft tissue	Homo sapiens	2019-09-16
+SRR24635329	SAMN35130645	whole organism	USA	USA	urine	Homo sapiens	2022
+SRR27176972	SAMN38764433	EB00174	USA	USA: Pittsburgh, Pennsylvania	wound	Homo sapiens	2023
+SRR28276777	SAMN40347753	ecl15	China	China:Shandong Province	sputum	Homo sapiens	2022-01-01
+SRR29748762	SAMN42382254	ARGA00261	Spain	Spain: A Coruna, Galicia	blood	Homo sapiens	2023-06-19
+SRR30047501	SAMN27409735	HD7427	China	China: Sichuan, Chengdu	Indwelling catheter	Homo sapiens	2020-06-01
+SRR30047502	SAMN27409734	HD7423	China	China: Sichuan, Chengdu	Peritoneal drainage fluid	Homo sapiens	2020-05-27
+SRR30047503	SAMN27409732	HD7411	China	China: Sichuan, Chengdu	Urinary tract	Homo sapiens	2020-05-08
+SRR30047504	SAMN27409710	HD5030	China	China: Sichuan, Chengdu	blood	Homo sapiens	2018-09-18
+SRR30780214	SAMN43584933	M22804	Argentina	Argentina: CORRIENTES	blood	Homo sapiens	2017-11-23
+SRR30908456	SAMN44099365	2024HL-01113	USA	USA	wound	Homo sapiens	2024
+SRR31396212	SAMN44576082	FIJ0420	Fiji	Fiji: Suva	blood	Homo sapiens	2021-02-21
+SRR3290655	SAMN04578341	GN04826	USA	USA		Homo sapiens	2012
+SRR33047820	SAMN46544978	EN1903348	Ireland	Ireland		Homo sapiens	2019-07
+SRR33047844	SAMN46558882	EN2107532	Ireland	Ireland	feces	Homo sapiens	2021-06
+SRR33931812	SAMN48971968	NG_0123	Nigeria	Nigeria	blood	Homo sapiens	2021-09
+SRR33932123	SAMN48972147	ET_0036A	Ethiopia	Ethiopia	blood	Homo sapiens	2021-04
+SRR34909763	SAMN50499757	2025EP-00300	USA	USA	urine	Homo sapiens	2025
+SRR35395857	SAMN51335576	22AR0003	New Zealand	New Zealand	Screen	Homo sapiens	2022
+SRR35795432	SAMN51434538	8405	Brazil	Brazil	Farm		2020-01-05
+SRR5247447	SAMN06249239	WCHECl-C4 = WCHECh050004	China	China: Chengdu, Sichuan	blood	Homo sapiens	2015-02-01

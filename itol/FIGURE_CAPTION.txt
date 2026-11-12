@@ -1,0 +1,26 @@
+Draft caption for Figure 1
+==========================
+
+Figure 1. Recombination-filtered core-genome phylogeny of 43 Enterobacter
+chengduensis genomes. The maximum-likelihood tree was inferred with IQ-TREE
+version 2.4.0 under the TVM+F+ASC model, selected by ModelFinder under the
+Bayesian information criterion, from a Snippy version 4.6.0 core-genome
+alignment after predicted recombinant regions were identified and masked with
+Gubbins version 3.2.1. Node support is from 1,000 ultrafast bootstrap
+replicates; filled nodes indicate support of at least 90%. Isolates sequenced
+in this study, A55822 and A55955, are labelled in red. Annotation tracks show,
+from the inside outward: country of origin; isolation source as recorded in the
+NCBI BioSample record, grouped; the number of acquired antimicrobial resistance
+genes detected, banded as low (<=5), medium (6-8) or high (>=9 genes); and the
+presence of a plasmid replicon marker and of ybtP/ybtQ. Filled and open symbols
+denote presence and absence. Genomes separate into two clusters that correspond
+exactly to the two bands of average nucleotide identity against the type-strain
+assembly GCF_001984825.2: 22 genomes at 95.67-95.80% and 21 at 99.03-99.99%.
+The two clusters differ by 121,375 to 122,118 core-genome SNPs, while distances
+within either cluster do not exceed 24,557; the distribution of all pairwise
+distances is shown in Supplementary Figure S[n]. Branch lengths differ by
+approximately three orders of magnitude between and within clusters, so the
+tree is displayed without branch lengths to scale.
+
+Note: delete the final sentence if the tree is shown as a phylogram rather than
+in Normal mode, and insert the correct supplementary figure number.

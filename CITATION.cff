@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use these workflows, scripts or tables, please cite the article below."
+title: "Workflows, scripts and analysis tables for the genomic characterization of Enterobacter chengduensis from a Tanzanian hospital"
+abstract: >-
+  Workflow configurations, parameters, accessions and analysis scripts for the
+  comparative genomic analysis of Enterobacter chengduensis isolates recovered
+  from a patient and from a hospital environmental surface in an orthopaedic
+  ward in Mwanza, Tanzania, set against publicly deposited genomes of the
+  species.
+type: software
+authors:
+  - family-names: Mboowa
+    given-names: Gerald
+  - family-names: Kidenya
+    given-names: Benson R.
+  - family-names: Sserwadda
+    given-names: Ivan
+  - family-names: Kanyerezi
+    given-names: Stephen
+  - family-names: Seni
+    given-names: Jeremiah
+keywords:
+  - Enterobacter chengduensis
+  - antimicrobial resistance
+  - comparative genomics
+  - Tanzania
+  - carbapenemase
+repository-code: "https://github.com/gmboowa/Ec-chengduensis-Tanzania-2026"
+version: 1.0.0
+date-released: 2026-11-11
+preferred-citation:
+  type: article
+  title: "Genomic characterization of patient-associated and abiotic-surface Enterobacter chengduensis isolates from a Tanzanian hospital in a global comparative context"
+  journal: "BMC Microbiology"
+  year: 2026
+  authors:
+    - family-names: Mboowa
+      given-names: Gerald
+    - family-names: Kidenya
+      given-names: Benson R.
+    - family-names: Sserwadda
+      given-names: Ivan
+    - family-names: Kanyerezi
+      given-names: Stephen
+    - family-names: Seni
+      given-names: Jeremiah
