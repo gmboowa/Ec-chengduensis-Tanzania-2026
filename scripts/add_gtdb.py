@@ -71,13 +71,13 @@ for n, w in enumerate([26, 24, 13, 11, 16]):
 lg = wb['Legend']
 ref_cell = lg.cell(row=12, column=1)
 notes = [
- 'GTDB closest representative — accession of the closest GTDB species representative '
+ 'GTDB closest representative - accession of the closest GTDB species representative '
  'identified by GTDB-Tk v2.4.0 ani_rep (GTDB release R220) using skani.',
- 'GTDB species — species of that representative under the GTDB taxonomy.',
- 'GTDB ANI (%) and GTDB AF — skani average nucleotide identity and alignment fraction '
+ 'GTDB species - species of that representative under the GTDB taxonomy.',
+ 'GTDB ANI (%) and GTDB AF - skani average nucleotide identity and alignment fraction '
  'to the closest representative. These are not directly comparable to the MUMmer-based '
  '"ANI to type strain (%)" column, which uses a different aligner.',
- 'GTDB species circumscription met — whether the genome falls within the ANI and alignment-'
+ 'GTDB species circumscription met - whether the genome falls within the ANI and alignment-'
  'fraction circumscription radius of that species cluster, as reported by GTDB-Tk.',
 ]
 start = lg.max_row + 1

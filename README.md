@@ -100,32 +100,68 @@ exclusions by an independent comparison.
 
 Per-genome results are in `results/gtdbtk/`.
 
+## Figure 1
+
+`figures/Figure1.pdf` is the figure as published. `scripts/make_figure1.py`
+regenerates it from the deposited files:
+
+```
+python scripts/make_figure1.py --out Figure1 --no-note --contrast high --dpi 1200
+```
+
+It reads `trees/Ec_43_phylo_iqtree.nwk`, `tables/Additional_file_1_Table_S1.xlsx`
+and `tables/virulence_per_genome_43.tsv`, and writes PNG, PDF and SVG. It needs
+only matplotlib and openpyxl, so the figure regenerates without a phylogenetics
+package installed. `--contrast normal` gives the lighter on-screen palette;
+`--root file` draws the tree as IQ-TREE wrote it.
+
+### Rooting
+
+The tree IQ-TREE writes is unrooted and opens with a three-way split, which
+draws A55822 and A55955 hanging off the root, apart from the cluster they
+belong to. That is an artefact of where the drawing starts, not biology.
+
+The longest branch in the tree, 0.222077 substitutions per site, separates
+exactly the 21 upper-band genomes from the 22 lower-band ones. The figure is
+drawn from the midpoint of that branch, which places the two Tanzanian isolates
+inside the 22-genome lower band and resolves the two ANI bands into two blocks.
+Topology and every branch length are unchanged; total tree length is
+0.3337131003 either way. `trees/Ec_43_phylo_rooted.nwk` holds the rooted form,
+for anyone opening the tree in iTOL or another viewer.
+
+### Resistance counts in the figure and the table
+
+The `AMR genes (n)` column counts every determinant AMRFinderPlus detected at
+the thresholds above, including the species-associated genes blaACT, fosA and
+oqxB, which are intrinsic to *Enterobacter* rather than acquired. Across the 43
+retained genomes, detected determinants run 3 to 21 per genome (median 10);
+excluding those three, acquired determinants run 0 to 18 (median 7), and three
+genomes carry none. The legend sheet of the supplementary table states this.
+
 ## Contents
 
 ```
 workflows/   GTDBTK_ANI_REP.wdl and its Terra inputs/outputs JSON
-tables/      merged supplementary table; BioSample metadata; virulence tabulation
+tables/      supplementary table; BioSample metadata; virulence tabulation
 accessions/  the retained panel, the exclusions with reasons, Terra set membership
 results/     GTDB-Tk per-genome classification and species counts; phylogeny
              outputs, SNP-distance matrix, selected model and tool versions
-itol/        the 43-tip tree and the iTOL annotation files for Figure 1
+trees/       the 43-tip tree as IQ-TREE wrote it, and the same tree rooted on
+             its longest branch for display
 phylogeny/   tree files, with and without the mapping reference
+figures/     Figure 1 as published
 scripts/     BioSample parsing, supplementary table construction, the GTDB
-             column merge, virulence tabulation, phylogeny drawing, iTOL
-             annotation build and checker, and a static checker run over each
-             WDL before import. Paths are relative to the repository root.
+             column merge, virulence tabulation, the Figure 1 drawing script and
+             its Newick parser, and a static checker run over each WDL before
+             import. Paths are relative to the repository root.
 ```
 
-`tables/Table_S1_merged_genome_panel.xlsx` is the merged supplementary table:
+`tables/Additional_file_1_Table_S1.xlsx` is the supplementary table:
 run and BioSample accession, strain, origin, geography, isolation source, host
 and collection date as recorded in NCBI BioSample, assembly metrics, ANI, GAMBIT
 assignment, GTDB-Tk classification, resistance determinants, replicon markers, and inclusion status.
 Blank metadata cells are attributes the original submitter did not populate;
 they were not inferred.
-
-`scripts/draw_tree.py` regenerates the phylogeny figure from a Newick file and
-the supplementary table using only matplotlib, so it runs without a
-phylogenetics package installed.
 
 ## Reuse
 

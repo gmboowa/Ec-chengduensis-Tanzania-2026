@@ -53,26 +53,26 @@ lines = [
      'panel.', False),
     ('', False),
     ('Column definitions', True),
-    ('Genome — isolate identifier; for public genomes, the SRA run accession.', False),
-    ('Origin — "This study" for the two Tanzanian isolates deposited under BioProject '
+    ('Genome - isolate identifier; for public genomes, the SRA run accession.', False),
+    ('Origin - "This study" for the two Tanzanian isolates deposited under BioProject '
      'PRJNA1447346; "Public genome" for genomes retrieved from the SRA.', False),
-    ('Run accession / BioSample — NCBI accessions, as retrieved on 11 November 2026.', False),
-    ('Country, Geographic location, Isolation source, Host, Collection date — as recorded '
+    ('Run accession / BioSample - NCBI accessions, as retrieved on 11 November 2026.', False),
+    ('Country, Geographic location, Isolation source, Host, Collection date - as recorded '
      'in the submitter-provided NCBI BioSample attributes. Blank cells indicate the '
      'attribute was not populated, or was recorded as "missing" or "not applicable", '
      'by the original submitter; these were not inferred.', False),
-    ('GAMBIT species — species assignment from GAMBIT (TheiaProk_Illumina_PE_PHB v4.3.0).', False),
-    ('ANI to type strain (%) — average nucleotide identity computed with MUMmer within the '
+    ('GAMBIT species - species assignment from GAMBIT (TheiaProk_Illumina_PE_PHB v4.3.0).', False),
+    ('ANI to type strain (%) - average nucleotide identity computed with MUMmer within the '
      'TheiaProk workflow against the Enterobacter chengduensis type strain WCHECl-C4, '
      'assembly GCF_001984825.2 (ASM198482v2).', False),
-    ('ANI group — ≥99%, "divergent (95–99%)", or "other species" (<95%).', False),
-    ('Contigs (n), BUSCO complete (%), Coverage (x) — assembly metrics from QUAST, BUSCO '
+    ('ANI group - ≥99%, "divergent (95–99%)", or "other species" (<95%).', False),
+    ('Contigs (n), BUSCO complete (%), Coverage (x) - assembly metrics from QUAST, BUSCO '
      'and the read-mapping step of the same workflow.', False),
-    ('AMR genes — acquired resistance determinants detected by AMRFinderPlus 4.2.7; gene '
+    ('AMR genes - acquired resistance determinants detected by AMRFinderPlus 4.2.7; gene '
      'names are italicised.', False),
-    ('Plasmid replicons — PlasmidFinder 2.1.6.', False),
-    ('QC flags — reasons for exclusion, where applicable.', False),
-    ('Retained in final panel — "Yes" if the genome passed the ANI (≥95%) and GAMBIT '
+    ('Plasmid replicons - PlasmidFinder 2.1.6.', False),
+    ('QC flags - reasons for exclusion, where applicable.', False),
+    ('Retained in final panel - "Yes" if the genome passed the ANI (≥95%) and GAMBIT '
      'species-assignment criteria; "No" otherwise.', False),
 ]
 r = 1
