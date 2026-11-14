@@ -6,8 +6,6 @@ recovered from a patient and from a hospital environmental surface in an
 orthopaedic ward in Mwanza, Tanzania, set against all publicly deposited genomes
 of the species that could be processed uniformly.
 
-Everything required to reproduce the reported results is recorded here, with
-every threshold and database version stated explicitly.
 
 ## Panel
 
